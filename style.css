@@ -215,18 +215,28 @@ bottom:-120px;
 
 }
 
-@media(min-width:768px){
+@media (min-width:768px){
 
 .container{
-
-max-width:600px;
-
+    max-width:520px;
 }
 
 h1{
+    font-size:36px;
+}
 
-font-size:60px;
+}
 
+/* Desktop */
+
+@media (min-width:1200px){
+
+.container{
+    max-width:560px;
+}
+
+h1{
+    font-size:40px;
 }
 
 }
